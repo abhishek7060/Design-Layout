@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   title = 'myProfile';
-  public myProfession = [" a web designer.", " a Full Stack Developer.", " a nature lover.", " an amateur gamer."];
+  public myProfession = [" a Full Stack Developer.", " a web designer.", " a nature lover.", " an amateur gamer."];
   loopNum: number;
   el: any;
   toRotate: any;
