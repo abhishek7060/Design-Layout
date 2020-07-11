@@ -1,10 +1,5 @@
 .container-fluid {
-  // background-image: url("src/assets/IMG_20612.jpg");
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // height: 100vh;
   padding: 0;
-  // background-position-y: -10vh;
   .body {
     background-image: url("src/assets/IMG_20612.jpg");
     background-repeat: no-repeat;
@@ -12,14 +7,12 @@
     height: 100vh;
     background-color: rgba(21, 22, 23, 0.72);
     background-blend-mode: overlay;
-    // background: rgba(21, 22, 23, 0.72);
 
     .myInfo {
       color: white;
       position: absolute;
       text-align: center;
       bottom: 5px;
-      // left: 34vw;
       width: 100%;
       h4 {
         font-weight: 300;
@@ -34,13 +27,6 @@
     }
   }
 }
-
-// .container-fluid{
-
-//   height: 110vh;
-//   background-position-y: -10vh;
-//   background-position-x: -81vw;
-// }
 
 @media only screen and (max-width: 600px) {
   .myInfo > h1 {
