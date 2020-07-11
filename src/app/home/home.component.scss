@@ -25,6 +25,64 @@
         height: 22px;
       }
     }
+    .detail {
+      margin: 0;
+      width: 75%;
+      float: right;
+      // padding-right: 12%;
+      padding-top: 7%;
+      .multi-color {
+        display: flex;
+        padding: 0;
+        .band {
+          height: 7px;
+          width: 20%;
+        }
+      }
+      .detail-card {
+        background-color: #fff;
+        padding: 5%;
+        .image-myself {
+          display: flex;
+          .img {
+            border: 5px solid #198090;
+            border-radius: 100%;
+            padding: 5px;
+            width: 240px;
+            height: 240px;
+            img {
+              width: 220px;
+              border-radius: 100%;
+              height: 220px;
+              object-fit: cover;
+            }
+          }
+          .myself {
+            width: 100%;
+            padding-left: 50px;
+            .myself-title1 {
+              font-size: 50px;
+              font-weight: 500;
+              border-bottom: 1px solid #198090;
+              span {
+                color: #198090;
+                font-weight: 700;
+              }
+            }
+            .myself-title2 {
+              color: #4a4545;
+              font-size: 14px;
+              font-weight: 500;
+              div:first-child {
+                font-size: 20px;
+                height: 44px;
+                padding-top: 4px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -34,5 +92,16 @@
   }
   .container-fluid .body {
     background-position-x: -100vw;
+  }
+  .container-fluid .body .detail{
+    width: 100%;
+    padding: 7% 3%;
+    .detail-card .image-myself .myself{
+      padding-left: 14px;
+      padding-top: 20px;
+      .myself-title1{
+        font-size: 27px;
+      }
+    }
   }
 }

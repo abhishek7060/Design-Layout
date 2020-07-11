@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   title = 'myProfile';
-  public myProfession = [" a Full Stack Developer.", " a web designer.", " a nature lover.", " an amateur gamer."];
+  public myProfession = ["Full Stack Developer", "Web Designer"];
   loopNum: number;
   el: any;
   toRotate: any;
@@ -46,7 +46,7 @@ export class HomeComponent implements OnInit {
       this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = 'I am <span class="wrap" style="font-weight: bold;">' + this.txt + '</span>';
+    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
     var that = this;
     var delta = 200 - Math.random() * 100;
